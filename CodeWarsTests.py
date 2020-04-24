@@ -11,7 +11,7 @@ class Test:
         else:
             print("OK ", a)
 
-    def assert_not_equals(a, b, msg=None):
+    def assert_not_equals(self,a, b, msg=None):
         if a == b:
             if msg is not None:
                 print(msg)
